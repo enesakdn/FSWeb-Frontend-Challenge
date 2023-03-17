@@ -4,7 +4,7 @@ export const Profile = () => {
   return (
     <>
       <section className="flex  justify-center   bg-[#F4F4F4]">
-        <div className="flex rounded-xl bg-white m-24  shadow-lg shadow-cyan-500/50">
+        <div className="shadow1">
           <div className="w-1/2 p-7">
             <h1 className="text-[#EA2678] font-bold text-l  mb-1">
               Basic Information

@@ -5,13 +5,13 @@ import GeriDonus from "./GeriDonus";
 export default function BasicExample() {
   return (
     <Router>
-      <div className="flex flex-col mt-14 h-10 pt-6 pb-24 pl-20 bg-[#F4F4F4]">
+      <div className="flex flex-col h-10 pt-6 pb-24   bg-[#F4F4F4]">
         <ul>
           <li>
             <Link to="/"></Link>
           </li>
-          <div className="flex flex-row mb-4">
-            <li className="p-1 border-2 font-Inter font-semibold border-[#E92577] text-[#E92577] bg-[#DDEEFE]">
+          <div className="flex flex-row ">
+            <li className=" ml-20 p-2 bg-[#f88daf] hover:bg-[#E92577] text-white font-bold rounded">
               <Link to="/about">Benimle İletişime Geç</Link>
             </li>
           </div>
@@ -33,7 +33,9 @@ export default function BasicExample() {
 function About() {
   return (
     <div>
-      <h2>Sayfamı ziyaret ettiğiniz için teşekkür ederim.</h2>
+      <h2 className="pl-20">
+        Sayfamı ziyaret ettiğiniz için teşekkür ederim.😊
+      </h2>
     </div>
   );
 }

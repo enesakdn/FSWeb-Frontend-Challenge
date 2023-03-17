@@ -3,6 +3,7 @@ import axios from "axios";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { ImageData } from "../data/ImageData";
 
 const Project = () => {
   const [data, setData] = useState([]);
@@ -67,7 +68,15 @@ const Project = () => {
                       Go to app
                     </a>
                   </div>
-                  <img src="https://s3-alpha-sig.figma.com/img/600f/f411/f246155782db0594c00c688cdbf27f80?Expires=1679875200&Signature=cy-YjlWcwMB0T99Ofmmm-pAvWan46p-1GWVfNzImp9TpB7z3fSkJp-reRmGjo3f8zsBjHGj2LnhKxHUHzujo8YbIUyxVt9nMfoCyTs18QzoH9yukzn2IuzbzvMksoZR6ikYOxzlMJNMHEQHLtTwdo4INoWWv-rf3D1AYPBQ~fS~kVT23OAkTHt1E1CXFHdc6QjQnmUnPfGbPvSk7qJT0fAitY3sjdPdYINdPqYtk2PPKBMugLlxUQtOh3H5-Xd35-rixyz23cdXzSn5v~eQwDYzuQAzA1kQz4zR2K9UhljywNlSAqKpSUV2Q9Z5QJDiBt27cF-oMejLBxR4lgdL9Yw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+                </div>
+                <div className="-mt-64 ml-32 ProjectImg">
+                  {ImageData.map((image) =>
+                    a.id === image.id ? (
+                      <img className="ProjectImg2" src={image.img} />
+                    ) : (
+                      <></>
+                    )
+                  )}
                 </div>
               </div>
             );
