@@ -1,0 +1,78 @@
+/*Header compenent*/
+.Header {
+  height: 738px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.5rem;
+  background: #f4f4f4;
+}
+.headerAbout {
+  width: 666px;
+  height: 256px;
+  left: 175px;
+  top: 208px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 620;
+  font-size: 42px;
+  line-height: 64px;
+
+  letter-spacing: 0.01em;
+
+  color: #0a0a14;
+}
+.headerSecondDiv {
+  display: flex;
+  flex-direction: column;
+}
+.headerH3 {
+  margin-top: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.headerİMG {
+  width: 341px;
+  height: 341px;
+  left: 928px;
+  top: 207px;
+
+  border-radius: 22px;
+}
+
+.App {
+  margin-top: 25px;
+}
+
+.Project1 {
+  height: 668px;
+  width: 500px;
+  border-radius: 12px;
+  padding-bottom: 492px;
+  padding-top: 46px;
+  padding-right: 92px;
+  padding-left: 40px;
+  margin-left: 193px;
+}
+.topic {
+  padding: 6px 20px 10px;
+  margin: 5px;
+
+  font-size: 16px;
+  height: 32px;
+  font-family: "Playfair Display";
+  background: #ffffff;
+  border-radius: 76px;
+  font-weight: 700;
+}
+/*Header compenent*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
