@@ -5,10 +5,10 @@ export const Profile = () => {
     <>
       <section className="flex  justify-center   bg-[#F4F4F4]">
         <div className="shadow1">
+          <h1 className="text-[#EA2678] font-bold text-l  mb-1">
+            Basic Information
+          </h1>
           <div className="w-1/2 p-7">
-            <h1 className="text-[#EA2678] font-bold text-l  mb-1">
-              Basic Information
-            </h1>
             <div className="font-bold">
               <p>Doğum Tarihi</p>
               <p>İkamet Şehri</p>
